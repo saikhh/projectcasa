@@ -1,4 +1,4 @@
-import NavBar from "@/components/navbar/navBar";
+import NavBar from "../../components/navbar/NavBar";
 import { Outlet } from "react-router";
 
 function Layout() {
@@ -8,9 +8,8 @@ function Layout() {
         <div className="flex ">
           <NavBar />
         </div>
-        <div className=""> 
-
-            <Outlet/>
+        <div className="content">
+          <Outlet />
         </div>
       </div>
     </>
