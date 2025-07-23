@@ -15,9 +15,7 @@ function HomePage() {
             <button className="btn-secondary">Learn More</button>
           </div>
         </div>
-        <div className="hero-image">
-          <img src={photo} alt="Modern home exterior" />
-        </div>
+
       </section>
     </div>
   );

@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 import "./navbar.scss"
 import photo from "../../photo/logo1.png" 
 
@@ -41,11 +41,8 @@ function NavBar() {
           </>
         )}
         <div className="menuIcon">
-          <img
-            src="/menu.png"
-            alt=""
-            onClick={() => setOpen((prev) => !prev)}
-          />
+          <GiHamburgerMenu style={{ width: '50px', height: '50px' }} onClick={() => setOpen((prev) => !prev)}/>
+        
         </div>
         <div className={open ? "menu active" : "menu"}>
           <a href="/">Home</a>
