@@ -13,7 +13,8 @@ function HomePage() {
             <button className="btn-primary">Start Searching</button>
             <button className="btn-secondary">Learn More</button>
           </div> */}
-          <SearchBar/>
+          <div className="search-bar"><SearchBar /></div>
+          
         </div>
 
       </section>
